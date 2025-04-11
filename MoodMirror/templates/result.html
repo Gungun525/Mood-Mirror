@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Mood Mirror Results</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+    <h2>We analyzed your mood and here’s something to cheer you up!</h2>
+    <p><strong>Your emotion:</strong> {{ emotion }}</p>
+    <p><strong>Quote:</strong> "{{ quote }}"</p>
+    <p><strong>Song:</strong> <a href="{{ song_link }}" target="_blank">{{ song_name }}</a> by {{ artist }}</p>
+    <p><strong>Movie:</strong> <a href="{{ movie_link }}" target="_blank">{{ movie_name }} ({{ year }})</a></p>
+    <br>
+    <a href="/">Try Again</a>
+</body>
+</html>

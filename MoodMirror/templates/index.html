@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mood Mirror</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+    <h1>Mood Mirror</h1>
+    <p>Upload your image and get happy suggestions!</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br><br>
+        <input type="submit" value="Detect My Mood">
+    </form>
+</body>
+</html>
