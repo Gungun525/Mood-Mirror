@@ -72,6 +72,7 @@ def upload_image():
 if __name__ == '__main__':
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
-    port = int(os.environ.get("PORT", 5000))  # ✅ This line is key
-    app.run(host='0.0.0.0', port=port)        # ✅ This makes it public!
+    
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port, debug=True)
 
